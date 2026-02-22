@@ -1,17 +1,17 @@
-# MTC Ramadan Calendar – Submission
+# MTC Ramadan Calendar Submission
 
-This is my full-stack submission for the Muslim Tech Collaborative (MTC) programming assessment. The application builds a Ramadan calendar that fetches fasting times from a live API and displays them in a clean UI with a live countdown timer.
+This is my submission for the MTC programming assessment. The application is a Ramadan calendar that fetches fasting times from a live API and displays them in a clean UI with a live countdown timer.
 
 ---
 
 ## Features
 
-- FastAPI backend route `GET /ramadan` that proxies the IslamicAPI — API key securely stored in a backend `.env` file (not committed)
-- React + TypeScript frontend (Vite)
-- 30-day Ramadan calendar grid
+- FastAPI backend route `GET /ramadan` that holds the IslamicAPI key (securely stored in a backend .env file)
+- React and TypeScript frontend (Vite)
+- 30 day Ramadan calendar grid
 - Current day highlighted
 - Live countdown timer to the next Sahur or Iftar (updates every second)
-- Clean Ramadan-themed UI (dark green, gold, white)
+- Clean Ramadan themed UI (dark green, gold, white)
 
 ---
 
@@ -59,7 +59,7 @@ Create a `.env` file inside the `backend/` folder:
 ISLAMIC_API_KEY=your_api_key_here
 ```
 
-> You can obtain an API key from: [https://islamicapi.com](https://islamicapi.com)
+> You can get an API key from: [https://islamicapi.com](https://islamicapi.com)
 
 Start the backend:
 ```bash
@@ -83,7 +83,6 @@ Frontend runs at: `http://localhost:5173`
 
 ## Notes
 
-- The frontend fetches data from the backend only — never directly from the external API.
-- CORS is configured for local development.
+- The frontend fetches data from the backend only, never directly from the external API.
+- CORS is set up for local development.
 - The countdown updates in real time.
-- The project focuses on correctness, clarity, and clean structure.
