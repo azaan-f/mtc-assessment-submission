@@ -1,6 +1,6 @@
 # MTC Ramadan Calendar Submission
 
-This is my submission for the MTC programming assessment. The application is a Ramadan calendar that fetches fasting times from a live API and displays them in a clean UI with a live countdown timer.
+This is my submission for the MTC programming assessment. The application is a Ramadan calendar that fetches Sahur and Iftar times from a live API and displays them in a clean UI with a live countdown timer.
 
 ---
 
