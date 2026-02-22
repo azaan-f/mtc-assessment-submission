@@ -6,11 +6,11 @@ This is my submission for the MTC programming assessment. The application is a R
 
 ## Features
 
-- FastAPI backend route that holds the IslamicAPI key (securely stored in a backend .env file)
+- FastAPI backend route that holds the IslamicAPI key (securely stored in a .env file)
 - React and TypeScript frontend (Vite)
 - 30 day Ramadan calendar grid
 - Current day highlighted
-- Live countdown timer to the next Sahur or Iftar (updates every second)
+- Live countdown timer to the next Sahur or Iftar
 - Clean Ramadan themed UI (dark green, gold, white)
 
 ---
@@ -24,7 +24,7 @@ This is my submission for the MTC programming assessment. The application is a R
 - python-dotenv
 
 **Frontend**
-- React 19
+- React
 - TypeScript
 - Vite
 
